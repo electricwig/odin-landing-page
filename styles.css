@@ -6,10 +6,8 @@ body {
 
 .header {
     color: aliceblue;
-    /* display: flex; */
     background-color: #1F2937;
     padding-bottom: 100px;
-    
 }
 
 .header a {
@@ -68,7 +66,7 @@ body {
 
 .placeholder_image {
     height: auto;
-    width: 400px;
+    width: 600px;
     margin-left: 50px;
     background-color: rgb(139, 139, 139);
     display: flex;
@@ -113,4 +111,35 @@ body {
     border-width: 4px;
     border-style: solid;
     border-radius: 16px;
+}
+
+
+/* QUOTE SECTION */
+
+.quote_section {
+    background-color: #E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+}
+
+.quote_attrib {
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-self: flex-end;
+    padding-left: 200px;
+    padding-right: 200px;
 }
